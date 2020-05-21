@@ -8,7 +8,6 @@ clone the repo
 
 ### Mobile Directory
 To run the mobile application, change the directory to Mobile,
-	1. Run nim install to grab all the node modules.
-	2. Make sure you have the react native cli installed with android/IoS emulators/devices connected
-	3. run react-native run-android/react-native run-ios accordingly
-	3. 
+* Run nim install to grab all the node modules.
+* Make sure you have the react native cli installed with android/IoS emulators/devices connected
+* Run react-native run-android/react-native run-ios accordingly
