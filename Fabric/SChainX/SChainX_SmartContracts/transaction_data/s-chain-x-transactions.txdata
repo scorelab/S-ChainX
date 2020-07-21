@@ -1,0 +1,44 @@
+[
+    {
+        "transactionName": "sChainXExists",
+        "transactionLabel": "A test sChainXExists transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "createSChainX",
+        "transactionLabel": "A test createSChainX transaction",
+        "arguments": [
+            "001",
+            "some value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "readSChainX",
+        "transactionLabel": "A test readSChainX transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "updateSChainX",
+        "transactionLabel": "A test updateSChainX transaction",
+        "arguments": [
+            "001",
+            "some other value"
+        ],
+        "transientData": {}
+    },
+    {
+        "transactionName": "deleteSChainX",
+        "transactionLabel": "A test deleteSChainX transaction",
+        "arguments": [
+            "001"
+        ],
+        "transientData": {}
+    }
+]
