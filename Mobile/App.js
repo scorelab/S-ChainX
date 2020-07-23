@@ -9,10 +9,10 @@
 
 import React from 'react';
 
-import Splash_screen from './src/screens/splash_screen';
+import FullStack_navigation from './src/navigation/fullStack_navigation';
 
 export default function App() {
   return (
-      <Splash_screen/>
+    <FullStack_navigation />
   );
 }

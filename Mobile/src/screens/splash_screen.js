@@ -1,13 +1,8 @@
-/* eslint-disable quotes */
 /* eslint-disable prettier/prettier */
-/* eslint-disable react/self-closing-comp */
-import React from 'react';
 
-import { StyleSheet, View, Text, Image } from 'react-native';
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp,
-} from 'react-native-responsive-screen';
+import React from 'react';
+import {StyleSheet, View, Text, Image} from 'react-native';
+import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
 
 export default function Splash_screen() {
   return (
@@ -17,10 +12,9 @@ export default function Splash_screen() {
       </View>
       <View style={styles.innerMiddle}>
         <Image
-          source={require("../assets/images/logo.png")}
+          source={require('../assets/images/logo.png')}
           resizeMode="contain"
-          style={styles.image}
-        ></Image>
+          style={styles.image} />
       </View>
       <View style={styles.innerBottom}>
         <Text style={styles.footer}>Developed by Score Group</Text>
@@ -50,12 +44,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   innerBottom: {
-    flex: .5,
+    flex: 0.5,
     justifyContent: 'center',
     alignItems: 'center',
   },
   image: {
     width: wp('45%'),
     height: wp('45%'),
-  }
+  },
 });
