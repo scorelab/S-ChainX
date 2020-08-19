@@ -38,7 +38,7 @@ export default function MainTab_navigation() {
                 inactiveTintColor: 'gray',
             }}
         >
-            <Tab.Screen name="Scan" component={ScanStack_navigation} />
+            <Tab.Screen name="Scan" component={ScanStack_navigation} /> 
             <Tab.Screen name="Products" component={ProductStack_navigation} />
             <Tab.Screen name="History" component={Maintab_history_screen} />
         </Tab.Navigator>
