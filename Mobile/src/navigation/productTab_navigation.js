@@ -9,7 +9,7 @@ import Product_website_screen from '../screens/product_website_screen';
 
 const Tab = createMaterialTopTabNavigator();
 
-export default function ProductTab_navigation() {
+export default function ProductTab_navigation() { 
     return (
         <Tab.Navigator
             tabBarOptions={{
