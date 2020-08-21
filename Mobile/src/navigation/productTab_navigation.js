@@ -21,7 +21,7 @@ export default function ProductTab_navigation() {
         >
             <Tab.Screen name="General" component={Product_info_screen} />
             <Tab.Screen name="Track" component={Product_track_screen} />
-            <Tab.Screen name="Website" component={Product_website_screen} />
+            {/* <Tab.Screen name="Website" component={Product_website_screen} /> Use a web element if you want to */}
         </Tab.Navigator>
     );
 }

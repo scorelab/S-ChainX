@@ -7,7 +7,7 @@ import { widthPercentageToDP as wp } from 'react-native-responsive-screen';
 export default function History_screen() {
     return (
         <View style={styles.container}>
-            <Text>History Screen</Text>
+            <Text>This Screen will show your search history</Text>
         </View>
     );
 }
