@@ -26,8 +26,8 @@ var items = []
 export default function Products_screen({ navigation }) {
     items = [];
 
-    products.map(element => {
-        items.push(
+    products.forEach(element => {
+       return items.push(
             <View style={styles.imageColumn}>
                 <View style={styles.imageContainer}>
                     <Image

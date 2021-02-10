@@ -25,8 +25,8 @@ export default function  Product_info_screen() {
     
     var items = []
 
-    accreditations.map(element => {
-        items.push(
+    accreditations.forEach(element => {
+        return items.push(
             <View style={styles.imageColumn}>
                 <View style={styles.imageContainer}>
                     <Image
